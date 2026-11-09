@@ -1,0 +1,45 @@
+C:\Users\HYPE AMD\juice-shop\package-lock.json:
+  Dependency jsonwebtoken@^9.0.0 was not found in package-lock.json. Your package.json and package-lock.json are probably out of sync. Please run "npm install" and try again.
+C:\Users\HYPE AMD\juice-shop\build\package.json:
+  Missing node_modules folder: we can't test without dependencies.
+Please run 'npm install' first.
+✗ 2/3 potential projects failed to get dependencies.
+
+Testing C:\Users\HYPE AMD\juice-shop...
+
+Tested 507 dependencies for known issues, found 6 issues, 46 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade ethers@5.8.0 to ethers@6.0.0 to fix
+  ✗ Use of a Cryptographic Primitive with a Risky Implementation [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-ELLIPTIC-14908844] in elliptic@6.6.1
+    introduced by ethers@5.8.0 > @ethersproject/signing-key@5.8.0 > elliptic@6.6.1 and 40 other path(s)
+  ✗ Use of Uninitialized Resource [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-WS-16722635] in ws@8.18.0
+    introduced by ethers@5.8.0 > @ethersproject/providers@5.8.0 > ws@8.18.0
+  ✗ Asymmetric Resource Consumption (Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-JS-WS-17344547] in ws@8.18.0
+    introduced by ethers@5.8.0 > @ethersproject/providers@5.8.0 > ws@8.18.0
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URIJS-19963961] in uri-js@4.4.1
+    introduced by @cyclonedx/cyclonedx-esbuild@1.4.4 > ajv-formats-draft2019@1.6.1 > uri-js@4.4.1
+  No upgrade or patch available
+  ✗ Infinite loop [High Severity][https://security.snyk.io/vuln/SNYK-JS-URIJS-19963963] in uri-js@4.4.1
+    introduced by @cyclonedx/cyclonedx-esbuild@1.4.4 > ajv-formats-draft2019@1.6.1 > uri-js@4.4.1
+  No upgrade or patch available
+  ✗ Uncaught Exception [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-URIJS-20341609] in uri-js@4.4.1
+    introduced by @cyclonedx/cyclonedx-esbuild@1.4.4 > ajv-formats-draft2019@1.6.1 > uri-js@4.4.1
+  No upgrade or patch available
+
+
+
+Organization:      serlianggraini
+Package manager:   npm
+Target file:       frontend\package-lock.json
+Project name:      frontend
+Open source:       no
+Project path:      C:\Users\HYPE AMD\juice-shop
+Licenses:          enabled
+
+
